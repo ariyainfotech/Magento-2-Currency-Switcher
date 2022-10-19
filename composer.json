@@ -1,0 +1,31 @@
+{
+  "name": "ariyainfotech/module-currencyswitcherpro",
+  "description": "Extension For Magento2 Developed By Ariya InfoTech (ariyainfotech.com)",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0|~8.1"
+  },
+  "type": "magento2-module",
+  "version": "1.0.4",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+      {
+          "name": "Ariya InfoTech",
+          "email": "info@ariyainfotech.com"
+      },
+      {
+          "name": "Yuvraj Raulji",
+          "email": "Yuvraj@ariyainfotech.com"
+      }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AriyaInfoTech\\CurrencySwitcherPro\\": ""
+    }
+  }
+}
